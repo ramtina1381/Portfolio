@@ -1,0 +1,58 @@
+.about-container {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 20px;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-header h1 {
+  font-size: 2.5em;
+  color: #333;
+  font-weight: 600;
+}
+
+.about-content {
+  line-height: 1.6;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+}
+
+.about-content strong {
+  color: #0077b6;
+}
+
+.about-footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.about-footer p {
+  font-style: italic;
+}
+
+/* LinkedIn Button Styling */
+.linkedin-button {
+  background-color: #0077b6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.linkedin-button:hover {
+  background-color: #005f8a;
+}

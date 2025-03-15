@@ -1,0 +1,52 @@
+.certificates-container {
+  background-color: #f4f4f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.certificates-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2e3d49;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.certificates-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.certificate-item {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificate-item:hover {
+  background-color: #e8f4f8;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.certificate-link {
+  text-decoration: none;
+  color: #2e3d49;
+}
+
+.certificate-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.certificate-issued-by {
+  font-size: 1rem;
+  color: #777;
+}

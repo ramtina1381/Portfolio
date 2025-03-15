@@ -1,0 +1,96 @@
+.home-container {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr; /* Single column for smaller screens */
+  gap: 20px;
+  justify-items: center;
+}
+
+.profile-section {
+  text-align: center;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 2.5em;
+  color: #333;
+  font-weight: 600;
+}
+
+.profile-title {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.intro-section {
+  text-align: center;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.cta-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns for larger screens */
+  gap: 20px;
+  text-align: center;
+}
+
+.cta-button {
+  background-color: #0077b6;
+  color: white;
+  padding: 15px 25px;
+  font-size: 1.1em;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #005f8c;
+}
+
+.resume-button {
+  background-color: #2a9d8f;
+}
+
+.resume-button:hover {
+  background-color: #1f7b6c;
+}
+
+.cover-letter-button {
+  background-color: #e76f51;
+}
+
+.cover-letter-button:hover {
+  background-color: #d05942;
+}
+
+.certifications-button {
+  background-color: #f4a261;
+}
+
+.certifications-button:hover {
+  background-color: #e18a4d;
+}
+
+@media (max-width: 768px) {
+  .cta-grid {
+    grid-template-columns: 1fr; /* Single column for smaller screens */
+  }
+}
