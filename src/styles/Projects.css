@@ -24,6 +24,10 @@
   padding: 1.5rem;
   text-align: left;
   transition: all 0.3s ease;
+  display: flex; /* Use flexbox to align content */
+  flex-direction: column; /* Arrange content vertically */
+  justify-content: space-between; /* Push the button to the bottom */
+  height: 100%; /* Ensure the height of the card is consistent */
 }
 
 .project-card:hover {
@@ -58,6 +62,7 @@
 }
 
 .project-link {
+  align-self: flex-start; /* Align the button to the left (if you want it aligned left) */
   background-color: #007bff;
   color: #fff;
   padding: 10px 20px;
