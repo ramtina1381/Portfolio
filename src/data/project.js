@@ -85,7 +85,26 @@ const projects = [
     dockerImg: require("../assets/WebApp/Docker.jpg"),
     postmanImg: require("../assets/WebApp/Postman.jpg"),
     swaggerImg: require("../assets/WebApp/Swagger.jpg")
+  },
+  {
+    id: "shopping-app",
+    title: "SwiftUI Mobile Application",
+    description: "A feature-rich shopping mobile app built with SwiftUI and Firebase for secure authentication.",
+    introduction: `This app ensures your credentials are securely stored with Firebase. You can add items to your cart, view the total amount, 
+    and confirm your purchase to receive a receipt.`,
+    signup: "Sign up to the app, verify your email, and your information will be securely stored in Firebase.",
+    login: "Log in using your credentials after email verification is completed.",
+    homePage: "Browse available items, search by name or category, and add them to your favorites or shopping cart.",
+    shoppingCart: "Adjust the quantity of your items, view the total cost, and confirm your purchase to receive a receipt.",
+    thumbnail: require("../assets/swiftui.png"),
+    technologies: "SwiftUI, Firebase",
+    link: "/projects/shopping-app",
+    signupImg: require("../assets/ShoppingApp/signup.jpg"),
+    loginImg: require("../assets/ShoppingApp/login.jpg"),
+    homeImg: require("../assets/ShoppingApp/home.jpg"),
+    shoppingCartImg: require("../assets/ShoppingApp/cart.jpg"),
   }
+  
   
 ];
 

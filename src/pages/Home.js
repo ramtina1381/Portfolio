@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import { motion } from 'framer-motion';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import profileImage from '../assets/profileImg.jpeg'; // Ensure this image exists
 import '../styles/Home.css'; // Import the external CSS file
 
@@ -19,7 +21,7 @@ const Home = () => {
           className="profile-image"
         />
         <h1 className="profile-name">Ramtin Abolfazli</h1>
-        <p className="profile-title">Data Analyst/Software Developer</p>
+        <p className="profile-title">Data Analyst / Software Developer</p>
       </motion.div>
 
       {/* Introduction Section */}
@@ -43,9 +45,7 @@ const Home = () => {
         transition={{ duration: 1.5 }}
       >
         <div className="cta-grid">
-          <a href="/projects" className="cta-button">
-            View My Projects
-          </a>
+          <Link to="/projects" className="cta-button">View My Projects</Link>
 
           <a
             href="/RamtinAbolfazli_resume.pdf" 
@@ -63,11 +63,36 @@ const Home = () => {
             View My Cover Letter
           </a>
 
-
-          <a href="/certifications" className="cta-button certifications-button">
+          <Link to="/certifications" className="cta-button certifications-button">
             View My Certifications
-          </a>
+          </Link>
         </div>
+      </motion.div>
+
+      {/* Social Media Icons Section */}
+      <motion.div
+        className="social-media-section"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.5 }}
+      >
+        <a 
+          href="https://www.linkedin.com/in/ramtinabolfazli/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="social-icon linkedin"
+        >
+          <FaLinkedin size={40} />
+        </a>
+
+        <a 
+          href="https://github.com/ramtina1381" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="social-icon github"
+        >
+          <FaGithub size={40} />
+        </a>
       </motion.div>
     </div>
   );

@@ -281,6 +281,68 @@ const ProjectDetail = () => {
         </div>
       )}
 
+      {/* Shopping App-Specific Sections */}
+      {project.signup && (
+        <div className="project-section">
+          <h3>Sign Up</h3>
+          <p>{project.signup}</p>
+          {project.signupImg && (
+            <img
+              src={project.signupImg}
+              alt="Sign Up Page"
+              className="project-image"
+              onClick={() => openModal(project.signupImg)}
+            />
+          )}
+        </div>
+      )}
+
+      {project.login && (
+        <div className="project-section">
+          <h3>Login</h3>
+          <p>{project.login}</p>
+          {project.loginImg && (
+            <img
+              src={project.loginImg}
+              alt="Login Page"
+              className="project-image"
+              onClick={() => openModal(project.loginImg)}
+            />
+          )}
+        </div>
+      )}
+
+      {project.homePage && (
+        <div className="project-section">
+          <h3>Home Page</h3>
+          <p>{project.homePage}</p>
+          {project.homeImg && (
+            <img
+              src={project.homeImg}
+              alt="Home Page"
+              className="project-image"
+              onClick={() => openModal(project.homeImg)}
+            />
+          )}
+        </div>
+      )}
+
+      {project.shoppingCart && (
+        <div className="project-section">
+          <h3>Shopping Cart</h3>
+          <p>{project.shoppingCart}</p>
+          {project.shoppingCartImg && (
+            <img
+              src={project.shoppingCartImg}
+              alt="Shopping Cart"
+              className="project-image"
+              onClick={() => openModal(project.shoppingCartImg)}
+            />
+          )}
+        </div>
+      )}
+
+
       {/* Technologies Used */}
       {project.technologies && (
         <p className="tech-stack">
