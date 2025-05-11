@@ -21,7 +21,7 @@ const projects = [
   ,
   {
     id: 'telus-analysis',
-    title: 'Telus Data Analysis',
+    title: 'SMB Business',
     description: 'A thorough analysis of Prospect Telus Business customers.',
     introduction: `
       This project involved extracting current Telus business customers from all industries across Canada.
