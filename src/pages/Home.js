@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import { Link } from "react-router-dom";
 import { motion } from 'framer-motion';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import profileImage from '../assets/profileImg.jpeg'; // Ensure this image exists
@@ -268,7 +267,7 @@ const Home = () => {
           <FaGithub size={40} />
         </a>
       </motion.div>
-      
+
       {/* Call to Action Section (Grid Layout) */}
 {/* Tab Navigation */}
 <div className="tabs">
